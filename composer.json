@@ -1,0 +1,63 @@
+{
+    "name": "id161836712/yii2-filepond",
+    "description": "FilePond widget for Yii2.",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "filepond"
+    ],
+    "homepage": "https://github.com/leonidkim01/yii2-filepond",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Leonid Kim",
+            "email": "kiml@list.ru",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/id161836712/yii2-filepond/issues",
+        "source": "https://github.com/id161836712/yii2-filepond"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "npm-asset/filepond": "^4.32",
+        "npm-asset/filepond-plugin-file-poster": "^2.5",
+        "npm-asset/filepond-plugin-file-validate-size": "^2.2",
+        "npm-asset/filepond-plugin-file-validate-type": "^1.2",
+        "npm-asset/filepond-plugin-image-crop": "^2.0",
+        "npm-asset/filepond-plugin-image-edit": "^1.6",
+        "npm-asset/filepond-plugin-image-exif-orientation": "^1.0",
+        "npm-asset/filepond-plugin-image-preview": "^4.6",
+        "npm-asset/filepond-plugin-image-resize": "^2.0",
+        "yiisoft/yii2": "^2.0.50"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6.24",
+        "rector/rector": "^2.2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "id161836712\\filepond\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "id161836712\\tests\\filepond\\": "tests"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    }
+}
